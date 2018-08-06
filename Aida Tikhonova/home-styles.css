@@ -1,14 +1,27 @@
-#home {
-    background-color: bisque;
-    color: black;
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+
+* {
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
-#products {
-    background-color: bisque;
-    color: black;
+#body {
+    margin: 0;  
+    padding: 0;
 }
 
-#contacts {
-    background-color: bisque;
-    color: black;
+#brand {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: blanchedalmond;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
+
+#menu {
+   background-color: blanchedalmond;
+   margin-left: 10px;
+   margin-right: 10px;
+}
+

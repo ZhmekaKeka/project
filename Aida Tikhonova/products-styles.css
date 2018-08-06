@@ -1,14 +1,26 @@
-#home {
-    background-color: bisque;
-    color: black;
+#body {
+    margin: none;   
 }
 
-#products {
-    background-color: bisque;
-    color: black;
+.brand {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    padding-left: 45%;
+    background-color: blanchedalmond;
+    margin: 10px 10px 10px 10px;
 }
 
-#contacts {
-    background-color: bisque;
-    color: black;
+#products-box {
+    margin-top: 10px;
+    display: flex;
+    align-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.title {
+
 }
