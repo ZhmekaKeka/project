@@ -1,17 +1,45 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Russo+One');
 
 #body {
+    color: black;
     margin: 0;
     padding: 0;
     padding: 1%;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Russo One', sans-serif;
     background-color: floralwhite;
 }
 
+#header {}
+
 #brand {
     background-color: rgb(235, 205, 165);
+    border-radius: 10px;
+    padding: 5px;
+    margin: 1%;
+}
+
+#href:hover {
+    color: brown;
 }
 
 #menu {
     background-color: rgb(235, 205, 165);
+    margin: 1%;
+    border-radius: 10px;
+    padding: 1%;
+}
+
+#href {
+    color: black;
+}
+
+#info {
+    background-color: rgb(235, 205, 165);;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 1%;
+}
+
+#copyright {
+    color: grey;
 }
